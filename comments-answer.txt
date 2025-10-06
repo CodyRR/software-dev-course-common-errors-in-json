@@ -1,0 +1,14 @@
+
+I am assuming that the complete Json file is needed to be made, so I made Booking.json to be the complete file based on the given invalidBookingJSON.
+
+From the original, I got rid of the const invalidBookingJSON, the ` from the begining and end, and the ";" at the end.
+
+Line 3, there needs to be a "," after the value "2024-05-15". This is needed to seperate the key-value pairs.
+
+Line 6, the key name needs to be in double-quotes. Any String has to have double-quotes.
+
+Line 13, the value cannot be undefined. It needs to have a String, Number, Boolean, Array, Object, or Null. This value was changed to Null.
+
+Line 23, the last entry in the array cannot have a comma. Commas only seperate values. One being at the end causes an error.
+
+The Json Lint validates my changes.
